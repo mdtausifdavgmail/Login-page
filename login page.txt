@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    *{margin: 0;padding: 0;
+    }
+    
+
+.f{
+    width:100%;
+    
+}
+button{
+    width: 20%;
+    cursor: pointer;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    
+}
+ .btn:hover{
+    color:black;
+    font-style: italic;
+    cursor: pointer;
+    font-weight: bold;
+    font-weight: bold;
+    background-color: greenyellow;
+}
+.btn{margin-left: 20%;
+
+}
+body{
+    /* background:linear-gradient(to bottom right,purple,black); */
+    background-image: url("login18.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type=text]{
+    width: 90%;
+    /* border-inline-start-color:blue; */
+    /* border-inline-end-color: aqua; */
+    margin: 8px 0;
+    border-top-color: aqua;
+    font-weight: 800;
+font-size: medium;
+font-style: italic;
+    border-inline-start-style:initial;
+    border-inline-end-style: initial;
+    border-bottom-left-radius: 19px;
+    border-top-right-radius: 19px;
+    padding: 12px 20px;
+    border-radius: 7px solid black;
+    display: inline-block;
+}
+input[type="password"]
+{width: 90%;
+    margin: 8px 0;
+    border-top-color:  aquamarine ;
+    font-weight: 800;
+font-size: medium;
+font-style: italic;
+    border-inline-start-style:initial;
+    border-inline-end-style: initial;
+    border-bottom-left-radius: 19px;
+    border-top-right-radius: 19px;
+    padding: 12px 20px;
+    border-radius: 7px solid black;
+    display: inline-block;
+}
+.container{
+    width: 50%;
+    padding: 202px;
+    border: 7px solid aquamarine;
+    margin-top: 50px;
+    padding-bottom: 26px ;
+    border-radius: 500px;
+    border-bottom-left-radius: 144px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 144px;
+    background-image: url("blue.png");
+}
+.a{color:aqua;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.p,.i{
+    color: aqua;
+}
+.p:hover{
+    color: blue;
+}
+.b ,.c{
+    color: aqua;
+}
+.s{
+    padding-left: 150px;
+
+}
+</style>
+<body>
+    <header>
+    
+    </header>
+    <form class="s">
+    <div class="container">
+        <h1 class="a">Login Here</h2>
+        <label class="b">Usearname</label>
+        <input type="text"placeholder="Enter usearname">
+    <label class="c">Password</label>
+    <input type="Password"placeholder="Enter password">
+    <button class="btn" >login</button>
+   <a class="p"href="#">Forgot password?</a>
+        
+    
+    </div>
+    </form>
+    
+    
+    
+</body>
+</html>
